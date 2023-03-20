@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  Clock
 //
-//  Created by Michael Stebel on 3/20/23.
+//  Created by Michael Stebel on 3/20/23. 
 //
 
 import SwiftUI
