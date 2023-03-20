@@ -31,7 +31,7 @@ struct Clock: View {
                 .rotationEffect(.degrees(Double(Calendar.current.component(.hour, from: time)) * 30 - 180))
             Capsule()
                 .fill(Color.black)
-                .frame(width: 6, height: 30)
+                .frame(width: 6, height: 40)
                 .offset(y: 35)
                 .rotationEffect(.degrees(Double(Calendar.current.component(.hour, from: time)) * 30 - 180))
            
@@ -42,7 +42,7 @@ struct Clock: View {
                 .rotationEffect(.degrees(Double(Calendar.current.component(.minute, from: time)) * 6 - 180))
             Capsule()
                 .fill(Color.black)
-                .frame(width: 6, height: 40)
+                .frame(width: 6, height: 50)
                 .offset(y: 40)
                 .rotationEffect(.degrees(Double(Calendar.current.component(.minute, from: time)) * 6 - 180))
             
