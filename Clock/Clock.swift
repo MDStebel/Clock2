@@ -28,17 +28,17 @@ struct Clock: View {
                 .fill(Color.black)
                 .frame(width: 2, height: 60)
                 .offset(y: 20)
-                .rotationEffect(.degrees(Double(Calendar.current.component(.hour, from: time)) * 30))
+                .rotationEffect(.degrees(Double(Calendar.current.component(.hour, from: time)) * 30 - 180))
             Rectangle()
                 .fill(Color.black)
                 .frame(width: 2, height: 90)
                 .offset(y: 15)
-                .rotationEffect(.degrees(Double(Calendar.current.component(.minute, from: time)) * 6))
+                .rotationEffect(.degrees(Double(Calendar.current.component(.minute, from: time)) * 6 - 180))
             Rectangle()
                 .fill(Color.red)
                 .frame(width: 2, height: 100)
                 .offset(y: 20)
-                .rotationEffect(.degrees(Double(Calendar.current.component(.second, from: time)) * 6))
+                .rotationEffect(.degrees(Double(Calendar.current.component(.second, from: time)) * 6 - 180))
 
         }
         .onAppear {

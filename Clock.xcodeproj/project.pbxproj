@@ -53,11 +53,11 @@
 		E227BB9729C8C0CD00235E26 /* Clock */ = {
 			isa = PBXGroup;
 			children = (
+				E227BB9C29C8C0CE00235E26 /* Assets.xcassets */,
+				E227BBA629C8C10C00235E26 /* Clock.swift */,
 				E227BB9829C8C0CD00235E26 /* ClockApp.swift */,
 				E227BB9A29C8C0CD00235E26 /* ContentView.swift */,
-				E227BB9C29C8C0CE00235E26 /* Assets.xcassets */,
 				E227BB9E29C8C0CE00235E26 /* Preview Content */,
-				E227BBA629C8C10C00235E26 /* Clock.swift */,
 			);
 			path = Clock;
 			sourceTree = "<group>";
